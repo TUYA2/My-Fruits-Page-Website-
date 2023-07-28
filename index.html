@@ -19,6 +19,14 @@
         border-bottom: 1px solid gainsboro ;
         padding-bottom:25px ;
          }
+         .header img{
+          background-color: gray;
+          filter: brightness(70%);
+         }
+         {
+          background-color: gray;
+          filter: brightness(50%);
+         }
 </style>
     </head>
 <body>
@@ -45,7 +53,8 @@
         </div>
       </div>
     </nav>
-   <header class="lg:w-[1200px] lg:h-[550px] lg:my-10 lg:mx-auto md:w-auto md:my-5 md:mx-12">
+   <header class="lg:w-[1200px] lg:h-[550px] lg:my-10 lg:mx-auto md:w-auto md:my-5 md:mx-12 ">
+    <div class="header">
     <div class="carousel w-full">
         <div id="slide1" class="carousel-item relative w-full">
           <img src="./images/banner1.png" class="w-full" />
@@ -65,7 +74,7 @@
           
         </div> 
         <div id="slide2" class="carousel-item relative w-full">
-            <div class="absolute top-0 left-0  bg-gradient-to-t from-gray-800 to-gray-50"></div>
+            <div class="absolute top-0 left-0 "></div>
           <img src="./images/banner2.png" class="w-full" />
           <div class="lg:absolute  lg:translate-[(-50%,-50%)]  lg:py-16 lg:px-[295px] md:py-10 md:px-10 md:absolute md:translate-[(-50%,-50%)] ">
             <h1 class="lg:text-white  lg:font-extrabold lg:text-6xl lg:text-center md:text-white md:font-bold md:text-4xl md:text-center">Exotic tastes at your  doorstep</h1>
@@ -108,6 +117,7 @@
           </div>
         </div>
       </div>
+    </div>
       <div class="lg:bg-white lg:justify-evenly lg:flex lg:w-[980px] lg:h-[210px] lg: rounded-lg  lg:border-hidden lg: border-x-8 lg:py-5 lg:relative lg:bottom-28 lg:left-28 lg:shadow-xl lg:items-center md:hidden sm:hidden">
         <div class="border-solid border-white border-0 text-center">  
                   <img width="130px" height="" src="./images/fruit1.png" alt="">
@@ -294,11 +304,11 @@
     </section>
     
     </main>
-<main>
+<main class="main">
      <section class=" lg:w-[1200px] lg:h-[550px]  lg:rounded-lg lg:py-32 lg:mx-20 md:w-[700]md
      h-[600]  md:rounded-lg md:pt-[800px] md:pb-0 md:mx-6 md:py-0">
         <div class="lg:relative lg:inline-block md:absolute md:pt-full md:inline-block">
-            <img class="lg:block lg:h-100% md:block md:h-120%" src="./images/banner1.png" alt="">
+            <img class="lg:bg-gray-600 lg:brightness-50 md:bg-gray-600 md:brightness-50 lg:block lg:h-100% md:block md:h-120%" src="./images/banner1.png" alt="">
         </div>
          <div class=" lg:relative lg:bottom-[480px] md:relative md:bottom-[480px]">
             <h2 class="lg:text-white lg:text-center lg:text-5xl lg:font-extrabold lg:pt-10 lg:pr-20 md:text-white md:text-center md:text-3xl md:font-extrabold md:pt-[500px] md:pl-24">Meet the team section</h2>
@@ -361,7 +371,7 @@
             <div class="lg: items-center lg:my-5 md:items-center md:my-1">
             <h2 class="lg:text-center lg:text-[24px] lg:font-bold lg:text-white  md:font-bold md:text-center md:text-[16px] md:mt-0 md:text-white ">Safia Chowdhury</h2>
             <p class="lg:text-center lg:text-[16px] lg:font-medium lg:text-white md:text-center md:text-[14px] md:font-medium md:my-1  md:text-white">Fruits Expert</p>
-            <div class="lg:flex lg:justify-around lg:my-3 md:flex md:justify-evenly md:my-0">
+            <div class="lg:flex lg:justify-evenly lg:my-3 md:flex md:justify-evenly md:my-0">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                 <g clip-path="url(#clip0_11_4811)">
                   <path d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z" fill="#F85559"/>
